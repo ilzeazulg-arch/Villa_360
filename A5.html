@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raíces Allende | Gastronomía</title>
+    <style>
+        :root {
+            --verde-claro: #b8e6c9;
+            --verde-osc: #2c6e49;
+            --blanco: #ffffff;
+            --texto: #1f2f23;
+            --sombra: rgba(44, 110, 73, 0.15);
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(180deg, #b8e6c9 0%, #99d8b0 100%);
+            min-height: 100vh;
+            color: var(--texto);
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(180deg, var(--verde-osc) 0%, #3a8058 100%);
+            color: var(--blanco);
+            text-align: center;
+            padding: 2rem 1.5rem;
+            box-shadow: 0 4px 12px var(--sombra);
+        }
+
+        header h1 {
+            margin: 0 0 1rem;
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            letter-spacing: 0.05em;
+        }
+
+        nav {
+            margin-top: 0.8rem;
+        }
+
+        nav a {
+            color: var(--blanco);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 6px;
+            transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        section {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 6px 16px var(--sombra);
+            border-left: 4px solid var(--verde-osc);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-3px);
+        }
+
+        section h2 {
+            color: var(--verde-osc);
+            margin-top: 0;
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--verde-claro);
+            padding-bottom: 0.5rem;
+        }
+
+        section p {
+            margin: 0.6rem 0;
+            font-size: 1rem;
+        }
+
+        section ul {
+            margin: 0.8rem 0 0 1.5rem;
+            padding: 0;
+        }
+
+        section li {
+            margin-bottom: 0.5rem;
+            padding-left: 0.3rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        footer a {
+            color: var(--verde-osc);
+            text-decoration: none;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        footer a:hover {
+            background: var(--verde-osc);
+            color: var(--blanco);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gastronomía local</h1>
+        <nav><a href="A1.html">Inicio</a> | <a href="A3.html">Tradiciones</a> | <a href="A6.html">Artesanías</a> | <a href="A7.html">Contacto</a></nav>
+    </header>
+    <main>
+        <section>
+            <h2>Sabores de la región</h2>
+            <p>La cocina de Villa de Allende representa la convivencia familiar y el uso de ingredientes de la región.</p>
+        </section>
+        <section>
+            <h2>La comida en las celebraciones</h2>
+            <p>Los platillos tradicionales forman parte importante de las fiestas, reuniones y actividades comunitarias.</p>
+        </section>
+        <section>
+            <h2>Recetario comunitario</h2>
+            <p>Una buena forma de conservar la gastronomía es compartir las recetas y conocer la historia detrás de cada platillo.</p>
+            <ul>
+                <li>Nombre del platillo.</li>
+                <li>Ingredientes de la región.</li>
+                <li>Forma de preparación.</li>
+                <li>Historia o celebración donde se prepara.</li>
+            </ul>
+        </section>
+    </main>
+    <footer><p><a href="A1.html">Volver al índice principal</a></p></footer>
+</body>
+</html>

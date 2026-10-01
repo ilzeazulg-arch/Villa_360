@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raíces Allende | Iniciar sesión</title>
+    <style>
+        :root {
+            --pistache: #dfeec9;
+            --pistache-osc: #8db67a;
+            --verde-osc: #345f3f;
+            --verde-profundo: #23472d;
+            --crema: #f7f4ee;
+            --blanco: #ffffff;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #edf7da 0%, #dfeec9 35%, #d4e7c4 100%);
+            color: var(--verde-osc);
+        }
+
+        table {
+            width: 100%;
+            height: 650px;
+            border-spacing: 0;
+            background: transparent;
+        }
+
+        h1 {
+            margin: 0 0 8px;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            color: var(--verde-profundo);
+        }
+
+        p {
+            margin: 0 0 12px;
+        }
+
+        form {
+            background: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(52, 95, 63, 0.15);
+            border-radius: 18px;
+            padding: 18px 22px;
+            box-shadow: 0 10px 22px rgba(35, 71, 45, 0.1);
+        }
+
+        label {
+            display: inline-block;
+            margin-bottom: 6px;
+            color: var(--verde-profundo);
+            font-weight: bold;
+            text-transform: lowercase;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid var(--pistache-osc);
+            border-radius: 10px;
+            background: var(--blanco);
+            font-size: 1rem;
+        }
+
+        button {
+            background: linear-gradient(180deg, var(--verde-osc), var(--verde-profundo));
+            color: var(--blanco);
+            border: none;
+            border-radius: 999px;
+            padding: 12px 26px;
+            font-weight: bold;
+            text-transform: lowercase;
+            cursor: pointer;
+            box-shadow: 0 8px 18px rgba(35, 71, 45, 0.2);
+        }
+
+        figure {
+            margin: 0;
+            background: rgba(255, 255, 255, 0.72);
+            border: 1px solid rgba(52, 95, 63, 0.12);
+            border-radius: 18px;
+            padding: 18px;
+            box-shadow: 0 10px 22px rgba(35, 71, 45, 0.08);
+        }
+
+        img {
+            display: block;
+            border-radius: 14px;
+            border: 3px solid rgba(141, 182, 122, 0.8);
+            max-width: 100%;
+        }
+
+        figcaption {
+            margin-top: 12px;
+            text-align: center;
+            font-weight: bold;
+            color: var(--verde-profundo);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td width="50%" align="center" valign="middle">
+                <table cellpadding="12" cellspacing="0">
+                    <tr>
+                        <td align="center">
+                            <h1>RAÍCES ALLENDE</h1>
+                            <p>Villa de Allende, cultura y tradición</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form action="A1.html" method="get">
+                                <p>
+                                    <label for="usuario"><strong>usuario</strong></label><br>
+                                    <input type="text" id="usuario" name="usuario" size="28" required>
+                                </p>
+                                <p>
+                                    <label for="contrasena"><strong>contraseña</strong></label><br>
+                                    <input type="password" id="contrasena" name="contrasena" size="28" required>
+                                </p>
+                                <p align="center">
+                                    <button type="submit">iniciar sesión</button>
+                                </p>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="50%" align="center" valign="middle">
+                <figure>
+                    <img src="img/Villa de Allende.jpg" alt="Paisaje de Villa de Allende" width="420">
+                    <figcaption>Descubre nuestras raíces</figcaption>
+                </figure>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
